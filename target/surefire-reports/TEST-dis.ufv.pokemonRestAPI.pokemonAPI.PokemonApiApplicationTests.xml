@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dis.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests" time="2.476" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dis.ufv.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests" time="0.25" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -64,9 +64,9 @@
     <property name="java.class.version" value="67.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[pokemonAPI] "/>
   </properties>
-  <testcase name="contextLoads" classname="dis.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests" time="0.699">
-    <system-out><![CDATA[18:40:08.282 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [dis.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests]: PokemonApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:40:08.377 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration dis.pokemonRestAPI.pokemonAPI.PokemonApiApplication for test class dis.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests
+  <testcase name="contextLoads" classname="dis.ufv.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests" time="0.015">
+    <system-out><![CDATA[2024-12-05T18:40:10.627+01:00  INFO 17364 --- [pokemonAPI] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [dis.ufv.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests]: PokemonApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-05T18:40:10.631+01:00  INFO 17364 --- [pokemonAPI] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration dis.ufv.pokemonRestAPI.pokemonAPI.PokemonApiApplication for test class dis.ufv.pokemonRestAPI.pokemonAPI.PokemonApiApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,14 +77,9 @@
 
  :: Spring Boot ::                (v3.3.5)
 
-2024-12-05T18:40:08.738+01:00  INFO 17364 --- [pokemonAPI] [           main] d.p.p.PokemonApiApplicationTests         : Starting PokemonApiApplicationTests using Java 23 with PID 17364 (started by david in C:\Users\david\Desktop\DIS\pokemonAPI)
-2024-12-05T18:40:08.738+01:00  INFO 17364 --- [pokemonAPI] [           main] d.p.p.PokemonApiApplicationTests         : No active profile set, falling back to 1 default profile: "default"
-2024-12-05T18:40:09.884+01:00  INFO 17364 --- [pokemonAPI] [           main] d.p.p.PokemonApiApplicationTests         : Started PokemonApiApplicationTests in 1.401 seconds (process running for 2.215)
+2024-12-05T18:40:10.661+01:00  INFO 17364 --- [pokemonAPI] [           main] d.u.p.p.PokemonApiApplicationTests       : Starting PokemonApiApplicationTests using Java 23 with PID 17364 (started by david in C:\Users\david\Desktop\DIS\pokemonAPI)
+2024-12-05T18:40:10.661+01:00  INFO 17364 --- [pokemonAPI] [           main] d.u.p.p.PokemonApiApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-12-05T18:40:10.859+01:00  INFO 17364 --- [pokemonAPI] [           main] d.u.p.p.PokemonApiApplicationTests       : Started PokemonApiApplicationTests in 0.224 seconds (process running for 3.195)
 ]]></system-out>
-    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\david\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
   </testcase>
 </testsuite>
