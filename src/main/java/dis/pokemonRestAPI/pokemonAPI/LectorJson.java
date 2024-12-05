@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class LectorJson {
     public ArrayList<Pokemon> leeFicheroJson(){
-        try {
+        try { 
             //lee el fichero que le pasamos y lo carga en un reader
             BufferedReader reader = new BufferedReader(new InputStreamReader(getClass().getClassLoader().getResourceAsStream("pokemonConId.json")));
 
