@@ -1,4 +1,4 @@
-FROM amazoncorretto:21
+FROM amazoncorretto:22
 
 COPY target/pokemonAPI-0.0.1.jar pokemonAPI-0.0.1.jar
 
